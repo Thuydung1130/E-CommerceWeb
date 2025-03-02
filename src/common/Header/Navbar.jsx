@@ -14,7 +14,7 @@ function Navbar() {
                     <div className="navlink">
                         <ul className={Menu? "flex":"flex-none"}>
                             <li>
-                                <NavLink to="/home">Home</NavLink>
+                                <NavLink to="/">Home</NavLink>
                             </li>
                             <li>
                             <NavLink to="/pages">Pages</NavLink>

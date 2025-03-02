@@ -1,3 +1,4 @@
+
 .head{
     padding: 12px 0;
     background-color: #0F3460;
@@ -111,6 +112,9 @@
     width: 650px;
     font-size: 15px;
     font-weight: 400;
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 7px 10px;
 }
 /* navbar-end */
 /* Search */
