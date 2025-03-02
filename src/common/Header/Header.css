@@ -1,0 +1,208 @@
+.head{
+    padding: 12px 0;
+    background-color: #0F3460;
+    font-size: 13px;
+}
+.head .container{   
+    display: flex;
+    justify-content: space-between;
+}
+.head_contact, .head_right{
+    display: flex;
+    color: #ddd;
+    justify-content: space-between;
+    width: 300px;   
+}
+.head_contact label{
+    margin-left: 10px;
+}
+/* Navbar */
+.header{
+    margin: 90px 0 0 0;
+}
+.header .categrories{
+    display: flex;
+    width: 150px;
+    font-size: 17px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .categrories .cart {
+    font-size: 19px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .navlink .menu{
+    display: none;
+}
+.header .navlink .flex{
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-between;  
+   
+}
+.header .navlink .flex-none{
+    list-style-type: none;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 45px 20px 20px 20px;
+    margin: 0;
+    width: 40%;
+    animation: left 0.75s  ease-out ;
+}
+.header .navlink .flex-none li {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    transition: background-color 1s ease-out;
+    margin-bottom: 10px;
+}
+.header .navlink .flex-none li:hover{
+    background-color: #ec687e;
+}
+.header .navlink .flex-none li a{
+    padding-left: 10px;
+}
+.header .navlink .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    color: #E94560;
+    font-size: 20px;
+}
+.header .navlink .flex li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    width: 100%;
+}
+.header .navlink .flex-none li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    width: 100%;
+}
+.header .navlink .flex li a::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #E94560;
+    content: "";
+    transition: 0.25s ease-out;
+
+}
+.header .navlink .flex li a:hover::after{
+    width: 100%;
+}
+.header .navlink .flex li a:hover{
+    color: #E94560;
+}
+.header .navlink{
+    width: 650px;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* navbar-end */
+/* Search */
+.search{
+    position: fixed;
+    width: 100%;
+}
+.search .container{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 17px 0;
+}
+.search .search_box{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border:2px solid #ddd;
+    border-radius: 50px;
+    color: #848484;
+}
+.search .search_box input:focus{
+    outline: none;
+}
+.search .search_box i{
+    height: 100%;
+    font-size: 17px;
+   margin-top: 2px;
+   margin-right: 10px;
+}
+.search .search_box input{
+    border: none;
+    flex: 1;
+    font-size: 15px;
+}
+.search .icon{
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.search .icon a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+.search .icon a span{
+    background-color: #E94560;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 13px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end-search */
+/* responsive */
+
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 600px) {
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .header .navlink .menu{
+        display: block;
+        margin-left: 90%;
+        border: none;
+        font-size: 20px;
+        color: #E94560;
+    }
+    .header .navlink .flex li{
+        display: none;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    .search .icon{
+        display: none;
+    }
+  }
