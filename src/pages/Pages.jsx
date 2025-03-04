@@ -1,6 +1,6 @@
 import FlashDeals from "../components/FlashDeals/FlashDeals";
 import Home from "../components/MainPage/Home";
-import "./Page.css"
+import "./page.css"
 function Pages({productItems}){
     console.log(productItems);
     return(
