@@ -1,0 +1,54 @@
+.shop{
+    margin-top: 100px;
+}
+.shop .container{
+    display: flex;
+    align-items: flex-start;
+}
+.shop .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop .contentWidth{
+    flex: 1;
+    margin-left: 25px;
+}
+.shop .product-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shop .product-content .box {
+    width: 33%;
+}
+.shop .product-content .box img{
+    width: 100%;
+}
+
+
+
+/* content-left */
+.category{
+    padding: 10px;
+    margin-top: 10px;
+}
+.category .chead{
+    display: flex;
+    justify-content: space-around;
+}
+.category .chead .brands{
+    position: relative;
+}
+.category .chead .brands::after{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    content: "";
+    background-color: #7F7F7F;
+    top: 0;
+    right: -40px;
+}
+.category .chead .shops{
+    color: #7F7F7F;
+}
