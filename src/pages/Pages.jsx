@@ -1,9 +1,12 @@
+import FlashDeals from "../components/FlashDeals/FlashDeals";
 import Home from "../components/MainPage/Home";
-
-function Pages(){
+import "./Page.css"
+function Pages({productItems}){
+    console.log(productItems);
     return(
         <>
         <Home/>
+        <FlashDeals productItems={productItems}/>
         </>
     )
 }

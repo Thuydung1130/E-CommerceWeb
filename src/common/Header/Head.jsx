@@ -15,8 +15,8 @@ function Head(){
 
                     </div>
                     <div className="head_right">
-                        <label htmlFor="">Theme FAQ's</label>
-                        <label htmlFor="">Need help</label>
+                        <label htmlFor="" className="n">Theme FAQ's</label>
+                        <label htmlFor=""className="n">Need help</label>
                         <div className="country">
                         <span>🏳️‍⚧️</span>
                         <label htmlFor="">EN</label>

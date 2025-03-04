@@ -182,7 +182,16 @@
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (max-width: 600px) {
-    
+    .search .search_box span{
+        display: none;
+    }
+    .head .head_right .n{
+        
+        display: none;
+    }
+    .head .head_right{
+        justify-content: flex-end;
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
